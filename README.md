@@ -2,6 +2,20 @@
 
 Интерактивная CLI-анимация вращения Земли на Python.
 
+## Демонстрация
+
+### Главное меню
+
+![Главное меню приложения](docs/images/main-menu.jpg)
+
+### Анимация и шкала прогресса
+
+![Анимация Земли и прогресс вращения](docs/images/animation-progress.jpg)
+
+### Справка
+
+![Раздел справки](docs/images/help.jpg)
+
 Приложение отображает ASCII-анимацию Земли в терминале, позволяет выбрать количество суток, скорость вращения и цвет изображения. Интерфейс реализован с помощью библиотеки Rich.
 
 ## Возможности
@@ -28,17 +42,16 @@
 
 ```text
 earth_rotat/
+├── docs/
+│   └── images/
+│       ├── animation-progress.png
+│       ├── help.png
+│       └── main-menu.png
 ├── src/
 │   └── earth_rotat/
-│       ├── __init__.py
-│       ├── animation.py   # Rich-анимация и прогресс-бар
-│       ├── main.py        # точка входа приложения
-│       ├── menu.py        # терминальное меню и настройки
-│       └── shots.py       # ASCII-кадры Земли
-├── .gitignore
+├── README.md
 ├── pyproject.toml
-├── poetry.lock
-└── README.md
+└── poetry.lock
 ```
 
 ## Установка
