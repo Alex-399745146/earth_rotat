@@ -1,0 +1,25 @@
+cat > .gitignore <<'EOF'
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Tests and checks
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+[project]
+name = "earth-rotat"
+version = "0.1.0"
+description = "ASCII-анимация вращения Земли в терминале"
+authors = [
+    {name = "Alexsandr Bachevskiy",email = "bachevskiiaa@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "earth_rotat", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
